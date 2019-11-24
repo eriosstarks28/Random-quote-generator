@@ -51,7 +51,7 @@ function getRandomQuote (array){
 /***
  * `printQuote` creates a new variable to store the random object grabbed from the array. formats it into html and returns it.
 ***/
-function printQuote(getQuote){
+function printQuote(){
   var quotesObject = getRandomQuote(quotes);
   var html = ' ';
   
